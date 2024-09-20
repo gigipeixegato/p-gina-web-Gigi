@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(223, 187, 134);
+    color: rgb(102, 94, 211);
+    margin: 0px;
+    font-family: "Satisfy", cursive;
+}
+header {
+    border-bottom: solid 3px rgb(102, 94, 211);
+    padding: 20px;
+    font-size: 50px;
+}
+.chamada {
+background-color: rgb(231, 219, 201);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+.titulo-video{
+    margin-right: 8%;
+    font-size: 20px;
+}
+img{
+    height:200px;
+}
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.categoria {
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.categoria-video img {
+    opacity: 0,5;
+    height: 200px;
+} 
+.categoria-video img:hover {
+     opacity: 1,0;
+}
